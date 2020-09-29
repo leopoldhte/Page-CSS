@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset= "utf-8">
+<link rel="stylesheet" href="acceuil.css">
+<link rel= "icon" href="html5.png"/>
+<title> JARDITOU</title>
+</head>
+
+<header> 
+    <img src="img/jarditou_logo.jpg" height= auto width= 250 alt="logo"/>
+</header>
+
+<div id="phrase">
+<h1>Tout le jardin</h1>
+</div>
+
+
+    <nav>
+        <a class="indent" href="index.html"> Acceuil</a>
+        
+        <a class="indent" href="tableau.html">Tableau</a>
+        
+        <a class="indent" href="contact.html">Contact</a> 
+    
+    </nav>
+    <br>
+    <img src="img/jarditou_accueil.jpg" height= 250 width= 1247 alt="acceuil"/>
+
+
+<h1>Contact</h1>
+<hr>
+
+
+     * Ces zones sont obligatoires <br>
+<br>
+<form action="http://bienvu.net/script.php" method="post">
+<fieldset>
+<legend>Vos Coordonnées</legend>
+<label for="nom"> Votre nom* : </label>
+<input type="text" required title="Entrez votre nom" name="nom" id="nom">
+
+<br>
+
+<label for="prenom"> Votre prénom* : </label>
+<input type="text" required title="Entrez votre prénom" name="prénom" id="prenom">
+
+<br>
+<br>
+
+<label for="sexe"> Sexe* : </label> 
+    <input type="checkbox" name="sexe" value="Féminin" id="sexe" required> Féminin 
+    <input type="checkbox" name="sexe" value="Masculin" required> Masculin
+<br>
+
+<label for="date">Date de naissance* : </label>
+<input type="date" required title="Entrez votre date de naissance" name="date" id="date">
+
+<br>
+
+<label for="codepostal">Code postal* : </label>
+<input type="text" required title="Entre votre Code Postal" name="codepostal" id="codepostal">
+
+<br>
+
+<label for="adress">Adresse : </label>
+<input type="text" name="adresse" id="adress">
+
+<br>
+
+<label for="ville">Ville : </label>
+<input type="text" name="ville" id="ville">
+
+<br>
+
+<label for="email">Email* : </label>
+<input type="email" required title="Entrez votre email" name="email" id="email">
+
+<br>
+<br>
+</fieldset>
+
+<fieldset>
+    <legend>Votre demande</legend>
+    <label for="sujet">Sujet* : </label>
+    <select id="sujet">
+        <option value="Veuillez séléctionner un sujet">Veuillez séléctionner un sujet</option>  
+        <option value="Sujet 1">Mes commandes</option>
+        <option value="Sujet 2">question sur un produit</option>
+        <option value="Sujet 3">Réclamation</option>
+         <option value="Sujet 4">Autres</option>
+    </select> 
+
+    <br>
+
+    Votre question * : <textarea name="commentaire" rows="5" cols="50" required></textarea><br>
+</fieldset>
+<br>
+
+    <input type="checkbox" id="traitement" required>
+    <label for="traitement"> * J'accepte le traitement informatique de ce formulaire</label>
+    <br><br>
+
+    <button type="submit"> Envoyer</button>  <button type="reset">Annuler</button>
+</form>
+
+<footer>
+
+    <nav>
+        <a href="mentionslegales.html"> Mention légales</a>
+    
+       <a href="horaires.html">Horaires</a>
+   
+        <a href="plandusite.html">Plan du site</a>
+    </nav>
+</footer>
+</html>
